@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 28px;
+    background-color: #2d1152;
+    margin-bottom: 14px;
+}
+
+#head a {
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+    margin-right: 18px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head_left img {
+    width: 20px;
+    height: 18px;
+    margin-right: 18px;
+}
+
+#downList {
+    width: 14px;
+    height: 10px;
+}
+
+#head_right {
+    display: flex;
+    align-items: center;
+}
+
+#bottom {
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+    display: flex;
+}
+
+#bottom_left {
+    display: flex;
+    width: 20%;
+    height: 100px;
+    flex-direction: column;
+}
+
+#bottom_left a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom_left a span {
+    color: white;
+    background-color: #2e6fe3;
+    font-size: 13px;
+}
+
+#bottom_right {
+    width: 70%;
+}
+
+#bottom_right_up {
+    height: 55%;
+    display: flex;
+}
+#search{
+    display: flex;
+    width: 70%;
+}
+#search_text {
+    border-radius: 30px;
+    height: 18px;
+    width: 70%;
+    padding:13px 20px 12px 20px ;
+}
+#bottom_right_up a {
+    position: relative;
+    left: -9%;
+}
+ #searchIcon{
+    vertical-align: top;
+    height:46px;
+    width: 73px;
+ }
+#search_right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#write {
+    background-image: url(write.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 22px;
+    background-color: white;
+    border: 0px solid;
+    background-size: 100%;
+    position: relative;
+    top: 20px;
+    right: 50px;
+}
+
+#temperature {
+    background-image: url(temperature.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    border: 0px solid;
+    position: relative;
+    top: 10px;
+}
+
+#login {
+    background-image: url(login.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 0px solid;
+}
+
+#email {
+    background-image: url(email.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 0px solid;
+}
+
+.button_a {
+    position: relative;
+    top: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #324fe1;
+}
+
+.button_a:hover {
+    text-decoration: underline;
+}
+
+#bottom_right_down {
+    height: 20%;
+    padding-top: 5px;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+#bottom_right_down span {
+    font-size: 13px;
+    color: #3f3f3f;
+}
+
+#bottom_right_down a {
+    height: 100%;
+    padding: 0 10px;
+    text-decoration: none;
+    border-right: 1px solid #d6d6d6;
+    color: #324fe1;
+}
+
+#bottom_right_down a:hover {
+    text-decoration: underline;
+}
